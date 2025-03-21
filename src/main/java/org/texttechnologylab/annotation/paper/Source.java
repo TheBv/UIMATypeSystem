@@ -1,7 +1,7 @@
 
 
    
-/* Apache UIMA v3 - First created by JCasGen Thu Jul 04 15:15:19 CEST 2024 */
+/* Apache UIMA v3 - First created by JCasGen Tue Feb 25 13:16:03 CET 2025 */
 
 package org.texttechnologylab.annotation.paper;
 
@@ -21,7 +21,7 @@ import org.apache.uima.jcas.tcas.Annotation;
 
 
 /**
- * Updated by JCasGen Thu Jul 04 15:15:19 CEST 2024
+ * Updated by JCasGen Tue Feb 25 13:16:03 CET 2025
  * XML source: /home/staff_homes/abrami/Projects/GitProjects/UIMATypeSystem/target/jcasgen/typesystem.xml
  * @generated */
 public class Source extends Annotation {
@@ -201,17 +201,17 @@ public class Source extends Annotation {
 
 
     /** indexed getter for authors - gets an indexed value -
-     * @generated
-     * @param i index in the array to get
-     * @return value of the element at index i
-     */
-    public String getAuthors(int i) {
-        return ((StringArray) (_getFeatureValueNc(wrapGetIntCatchException(_FH_authors)))).get(i);
-    }
+   * @generated
+   * @param i index in the array to get
+   * @return value of the element at index i 
+   */
+  public String getAuthors(int i) {
+     return ((StringArray)(_getFeatureValueNc(wrapGetIntCatchException(_FH_authors)))).get(i);
+  } 
 
-    /** indexed setter for authors - sets an indexed value -
-     * @generated
-     * @param i index in the array to set
+  /** indexed setter for authors - sets an indexed value - 
+   * @generated
+   * @param i index in the array to set
    * @param v value to set into the array 
    */
   public void setAuthors(int i, String v) {

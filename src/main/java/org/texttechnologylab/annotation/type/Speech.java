@@ -1,7 +1,7 @@
 
 
    
-/* Apache UIMA v3 - First created by JCasGen Thu Jul 04 15:15:19 CEST 2024 */
+/* Apache UIMA v3 - First created by JCasGen Tue Feb 25 13:16:03 CET 2025 */
 
 package org.texttechnologylab.annotation.type;
 
@@ -20,7 +20,7 @@ import org.apache.uima.jcas.tcas.Annotation;
 
 
 /**
- * Updated by JCasGen Thu Jul 04 15:15:19 CEST 2024
+ * Updated by JCasGen Tue Feb 25 13:16:03 CET 2025
  * XML source: /home/staff_homes/abrami/Projects/GitProjects/UIMATypeSystem/target/jcasgen/typesystem.xml
  * @generated */
 public class Speech extends Annotation {
@@ -124,17 +124,15 @@ public class Speech extends Annotation {
     //*--------------*
     //* Feature: speaker
 
-    /**
-     * getter for speaker - gets
-     *
-     * @return value of the feature
+    /** getter for speaker - gets
      * @generated
-     */
-    public Speaker getSpeaker() {
-        return (Speaker) (_getFeatureValueNc(wrapGetIntCatchException(_FH_speaker)));
-    }
-
-    /** setter for speaker - sets
+     * @return value of the feature
+   */
+  public Speaker getSpeaker() { 
+    return (Speaker)(_getFeatureValueNc(wrapGetIntCatchException(_FH_speaker)));
+  }
+    
+  /** setter for speaker - sets  
    * @generated
    * @param v value to set into the feature 
    */
